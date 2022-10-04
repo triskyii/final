@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: border-box;
+   
+    text-decoration: none;
+}
+ul li{
+    display: inline-table;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    background-color: rgb(221, 30, 30);
+    border-radius: 25px;
+    margin-top: 15px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+ul li:hover{
+     background-color: rgb(53, 151, 151);
+     color: goldenrod;
+     cursor: pointer;
+     border-radius: 25px;
+     -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+     -ms-border-radius: 25px;
+     -o-border-radius: 25px;
+}
+
+.active{
+    background-color: rgb(47, 121, 121);
+    color: black;
+
+    display: inline-table;
+ 
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+  
+    border-radius: 25px;
+
+}
+.active:hover{
+    background-color: rgb(151, 207, 207);
+    color: goldenrod;
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px; 
+}
+
+
+
+.new{
+    height: 150px;
+    text-align: center;
+    background-color: rgb(165, 68, 68);
+    color:rgb(46, 44, 44);
+    justify-content: center;
+ 
+}
+a{
+    color: rgb(26, 212, 212);
+}
+/*editing profile container*/
+.field{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 700;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    background-color: skyblue;
+    justify-content: center;
+    margin-top: 40px;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 5px;
+    color: black;
+    
+}
+marquee{
+  color: rgb(44, 40, 40); 
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+
+.pi{
+    
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(248, 152, 168);
+    margin-top: 5px;
+  }
+  /*editting profile image*/
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+}
+/*editting contact table */
+table{
+    background-color: rgb(202, 29, 29);
+    box-shadow: 1px 1px 1px 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 700;
+    
+
+}
+/*editting contact table column*/
+th{
+    background-color: bisque;
+    box-shadow: 1px 1px 1px 1px; 
+}
+/*editting contact table row*/
+td{
+    margin-right: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: bisque;
+    font-size:larger ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
+/*editting court paragraph*/
+.pii{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(45, 150, 192);
+}
+/*editting court header*/
+.hi{
+    
+    background-color: rgb(202, 29, 29);
+    color: rgb(93, 202, 166);
+    box-shadow: 1px 1px 1px 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 700;
+       
+     
+}
+h4{
+    background-color: rgb(70, 56, 56);
+    color: goldenrod;
+
+}
+p{
+    color:rgb(26, 24, 24);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
